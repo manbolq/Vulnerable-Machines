@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Sat Feb 11 12:21:06 2023 as: nmap --script http-enum -p80 -oN http-enum photobomb.htb
+Nmap scan report for photobomb.htb (10.10.11.182)
+Host is up (0.041s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /printer/image: Lexmark Printer (401 Unauthorized)
+|   /printer/: Potentially interesting folder (401 Unauthorized)
+|_  /printers/: Potentially interesting folder (401 Unauthorized)
+
+# Nmap done at Sat Feb 11 12:22:46 2023 -- 1 IP address (1 host up) scanned in 100.55 seconds

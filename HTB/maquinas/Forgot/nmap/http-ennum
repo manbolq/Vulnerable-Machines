@@ -1,0 +1,8 @@
+# Nmap 7.92 scan initiated Sun Feb 26 20:00:45 2023 as: nmap --script http-enum -p80 -oN http-ennum 10.10.11.188
+Nmap scan report for 10.10.11.188
+Host is up (0.091s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Sun Feb 26 20:01:15 2023 -- 1 IP address (1 host up) scanned in 30.29 seconds

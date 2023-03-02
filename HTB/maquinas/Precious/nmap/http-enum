@@ -1,0 +1,8 @@
+# Nmap 7.92 scan initiated Sat Jan 28 10:36:06 2023 as: nmap --script http-enum -p80 -oN http-enum precious.htb
+Nmap scan report for precious.htb (10.10.11.189)
+Host is up (0.079s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Sat Jan 28 10:39:25 2023 -- 1 IP address (1 host up) scanned in 198.44 seconds

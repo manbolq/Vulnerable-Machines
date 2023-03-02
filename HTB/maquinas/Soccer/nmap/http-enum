@@ -1,0 +1,8 @@
+# Nmap 7.92 scan initiated Sat Feb 11 18:12:50 2023 as: nmap --script http-enum -p80 -oN http-enum soccer.htb
+Nmap scan report for soccer.htb (10.10.11.194)
+Host is up (0.041s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Sat Feb 11 18:14:19 2023 -- 1 IP address (1 host up) scanned in 88.38 seconds

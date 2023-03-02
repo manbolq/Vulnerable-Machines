@@ -1,0 +1,3 @@
+manager:partylikearockstar (wp)
+metapress.htb:9NYS_ii@FyL_p5M2NvJ (ftp)
+jnelson:Cb4_JmWM8zUZWMu@Ys (ssh)

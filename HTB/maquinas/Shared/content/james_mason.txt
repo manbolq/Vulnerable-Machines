@@ -1,0 +1,3 @@
+id=1
+username=james_mason
+password=fc895d4eddc2fc12f995e18c865cf273 (probably hashed) --> Soleil101

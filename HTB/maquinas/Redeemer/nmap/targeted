@@ -1,0 +1,9 @@
+# Nmap 7.92 scan initiated Sat Oct  1 22:52:02 2022 as: nmap -sCV -p6379 -oN targeted 10.129.31.86
+Nmap scan report for 10.129.31.86
+Host is up (0.056s latency).
+
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store 5.0.7
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  1 22:52:09 2022 -- 1 IP address (1 host up) scanned in 6.88 seconds

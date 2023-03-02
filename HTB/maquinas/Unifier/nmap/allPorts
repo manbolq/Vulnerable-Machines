@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Tue Oct 25 17:15:34 2022 as: nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn -oG allPorts 10.129.132.232
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.132.232 ()	Status: Up
+Host: 10.129.132.232 ()	Ports: 22/open/tcp//ssh///, 6789/open/tcp//ibm-db2-admin///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///, 8843/open/tcp//unknown///, 8880/open/tcp//cddbp-alt///
+# Nmap done at Tue Oct 25 17:15:48 2022 -- 1 IP address (1 host up) scanned in 14.28 seconds

@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Wed Feb 15 12:13:58 2023 as: nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn -oG allPorts 10.10.11.197
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.11.197 ()	Status: Up
+Host: 10.10.11.197 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///
+# Nmap done at Wed Feb 15 12:14:12 2023 -- 1 IP address (1 host up) scanned in 14.14 seconds

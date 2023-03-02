@@ -1,0 +1,24 @@
+# Nmap 7.92 scan initiated Sat Jan 28 23:55:39 2023 as: nmap --script http-enum -p80 -oN http-enum metapress.htb
+Nmap scan report for metapress.htb (10.10.11.186)
+Host is up (0.041s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /wp-login.php: Possible admin folder
+|   /wp-json: Possible admin folder
+|   /robots.txt: Robots file
+|   /.htaccess: Incorrect permissions on .htaccess or .htpasswd files
+|   /readme.html: Wordpress version: 2 
+|   /: WordPress version: 5.6.2
+|   /feed/: Wordpress version: 5.6.2
+|   /wp-includes/images/rss.png: Wordpress version 2.2 found.
+|   /wp-includes/js/jquery/suggest.js: Wordpress version 2.5 found.
+|   /wp-includes/images/blank.gif: Wordpress version 2.6 found.
+|   /wp-includes/js/comment-reply.js: Wordpress version 2.7 found.
+|   /wp-login.php: Wordpress login page.
+|   /wp-admin/upgrade.php: Wordpress login page.
+|   /readme.html: Interesting, a readme.
+|_  /0/: Potentially interesting folder
+
+# Nmap done at Sat Jan 28 23:58:14 2023 -- 1 IP address (1 host up) scanned in 154.95 seconds

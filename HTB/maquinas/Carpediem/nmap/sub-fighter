@@ -1,0 +1,11 @@
+Target: http://Carpediem.htb/
+Total requests: 19966
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00048:  C=200    462 L	    2174 W	  31090 Ch	  "portal"
+
+Total time: 0
+Processed Requests: 19966
+Filtered Requests: 19965
+Requests/sec.: 0

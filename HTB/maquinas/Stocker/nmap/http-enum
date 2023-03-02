@@ -1,0 +1,8 @@
+# Nmap 7.92 scan initiated Wed Feb  1 11:17:24 2023 as: nmap --script http-enum -p80 -oN http-enum stocker.htb
+Nmap scan report for stocker.htb (10.10.11.196)
+Host is up (0.043s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Wed Feb  1 11:18:58 2023 -- 1 IP address (1 host up) scanned in 93.34 seconds

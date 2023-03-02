@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Sat Oct  1 01:50:30 2022 as: nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn -oG allpPorts 10.129.100.128
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.100.128 ()	Status: Up
+Host: 10.129.100.128 ()	Ports: 23/open/tcp//telnet///
+# Nmap done at Sat Oct  1 01:50:54 2022 -- 1 IP address (1 host up) scanned in 23.29 seconds
