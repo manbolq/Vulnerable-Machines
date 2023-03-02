@@ -1,0 +1,34 @@
+# Nmap 7.92 scan initiated Sat Jan 14 17:12:15 2023 as: nmap -p21,22,80 -sCV -oN targeted 192.168.231.139
+Nmap scan report for 192.168.231.139
+Host is up (0.00069s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    3 0        0            4096 Jun 21  2021 share
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:192.168.231.130
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 4
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 92:4c:ae:7b:01:fe:84:f9:5e:f7:f0:da:91:e4:7a:cf (RSA)
+|   256 95:97:eb:ea:5c:f8:26:94:3c:a7:b6:b4:76:c3:27:9c (ECDSA)
+|_  256 cb:1c:d9:56:4f:7a:c0:01:25:cd:98:f6:4e:23:2e:77 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+MAC Address: 00:0C:29:DF:5D:2B (VMware)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan 14 17:12:24 2023 -- 1 IP address (1 host up) scanned in 8.89 seconds

