@@ -1,0 +1,14 @@
+"Env": [
+      "MYSQL_ROOT_PASSWORD=jI86kGUuj87guWr3RyF",
+      "MYSQL_USER=gitea",
+      "MYSQL_PASSWORD=yuiu1hoiu4i5ho1uh",
+      "MYSQL_DATABASE=gitea",
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "GOSU_VERSION=1.14",
+      "MYSQL_MAJOR=8.0",
+      "MYSQL_VERSION=8.0.31-1.el8",
+      "MYSQL_SHELL_VERSION=8.0.31-1.el8"
+    ],
+
+
+To get root access, use source code of the sudo script. Note the ./full-checkup.sh, without absolute path, so create a script named like that, not in /opt/scripts folder.

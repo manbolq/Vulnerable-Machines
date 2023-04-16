@@ -1,0 +1,1 @@
+# Nmap 7.92 scan initiated Sat Apr 15 21:40:19 2023 as: nmap --script http-enum -p80 -oN http-enum searcher.htb

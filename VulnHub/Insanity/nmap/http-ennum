@@ -1,0 +1,20 @@
+# Nmap 7.92 scan initiated Sun Mar 12 18:22:13 2023 as: nmap --script http-enum -p80 -oN http-ennum 192.168.5.130
+Nmap scan report for 192.168.5.130
+Host is up (0.00032s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /phpinfo.php: Possible information file
+|   /phpmyadmin/: phpMyAdmin
+|   /webmail/src/login.php: squirrelmail version 1.4.22
+|   /webmail/images/sm_logo.png: SquirrelMail
+|   /css/: Potentially interesting folder w/ directory listing
+|   /data/: Potentially interesting folder w/ directory listing
+|   /icons/: Potentially interesting folder w/ directory listing
+|   /img/: Potentially interesting folder w/ directory listing
+|   /js/: Potentially interesting folder w/ directory listing
+|_  /news/: Potentially interesting folder
+MAC Address: 00:0C:29:39:47:8C (VMware)
+
+# Nmap done at Sun Mar 12 18:22:28 2023 -- 1 IP address (1 host up) scanned in 15.55 seconds

