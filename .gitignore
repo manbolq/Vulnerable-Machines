@@ -1,6 +1,0 @@
-repos/
-images/
-*.ovpn
-.PAT.txt
-HTB/maquinas/BroScience/content/newrockyou.txt
-.gitignore
