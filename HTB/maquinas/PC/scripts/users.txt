@@ -1,0 +1,15 @@
+info
+message: "Account created for user info!"
+admin
+message: "User Already Exists!!"
+2000
+message: "Account created for user 2000!"
+michael
+message: "Account created for user michael!"
+NULL
+message: "Account created for user NULL!"
+john
+message: "Account created for user john!"
+david
+message: "Account created for user david!"
+robert

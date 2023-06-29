@@ -1,0 +1,33 @@
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://microblog.htb:3000/FUZZ
+Total requests: 220560
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload                                                                                                                
+=====================================================================
+
+000000001:   200        273 L    1172 W     13121 Ch    "# directory-list-2.3-medium.txt"                                                                                      
+000000003:   200        273 L    1172 W     13121 Ch    "# Copyright 2007 James Fisher"                                                                                        
+000000007:   200        273 L    1172 W     13121 Ch    "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"                                                      
+000000014:   200        273 L    1172 W     13121 Ch    "http://microblog.htb:3000/"                                                                                           
+000000013:   200        273 L    1172 W     13121 Ch    "#"                                                                                                                    
+000000012:   200        273 L    1172 W     13121 Ch    "# on at least 2 different hosts"                                                                                      
+000000002:   200        273 L    1172 W     13121 Ch    "#"                                                                                                                    
+000000011:   200        273 L    1172 W     13121 Ch    "# Priority ordered case-sensitive list, where entries were found"                                                     
+000000010:   200        273 L    1172 W     13121 Ch    "#"                                                                                                                    
+000000009:   200        273 L    1172 W     13121 Ch    "# Suite 300, San Francisco, California, 94105, USA."                                                                  
+000000006:   200        273 L    1172 W     13121 Ch    "# Attribution-Share Alike 3.0 License. To view a copy of this"                                                        
+000000008:   200        273 L    1172 W     13121 Ch    "# or send a letter to Creative Commons, 171 Second Street,"                                                           
+000000005:   200        273 L    1172 W     13121 Ch    "# This work is licensed under the Creative Commons"                                                                   
+000000004:   200        273 L    1172 W     13121 Ch    "#"                                                                                                                    
+000000259:   303        2 L      3 W        38 Ch       "admin"                                                                                                                
+000000386:   303        2 L      3 W        38 Ch       "issues"                                                                                                               
+000001012:   401        1 L      1 W        50 Ch       "v2"                                                                                                                   
+000002816:   303        2 L      3 W        41 Ch       "explore"                                                                                                              
+000007564:   303        2 L      3 W        38 Ch       "milestones"                                                                                                           
+000013355:   303        2 L      3 W        38 Ch       "notifications"                                                                                                        
+000014175:   200        366 L    1571 W     16776 Ch    "cooper"                                                                                                               
+000045240:   200        273 L    1172 W     13121 Ch    "http://microblog.htb:3000/"
